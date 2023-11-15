@@ -1,0 +1,82 @@
+/* kaikki tyylit tänne*/
+body {
+    background-color: blueviolet;
+    background-image: url(https://cdn.pixabay.com/photo/2023/10/31/17/25/finnish-lapphund-8355620_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*nav alkaa*/
+nav{
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 20;
+    font-size: large;
+    list-style: none;
+    text-align: center;
+    
+ }
+ nav li{
+    list-style-type: none;
+ }
+nav :hover{
+    border-radius: 100px;
+    background-color: rgba(70, 219, 219, 0.411);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    list-style: none;
+}
+
+/*nav päättyy*/
+
+#eka h1 {
+    text-align: center;
+    color: blanchedalmond;
+    font-family: monospace;
+
+}
+#eka p{
+    text-align: center;
+    color: chartreuse;
+}
+#eka video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+#toka h1{
+    text-align: center;
+    color: rgb(226, 226, 43);
+}
+#toka p{
+    text-align: center;
+    font-family: sans-serif;
+    color: violet;
+}
+#toka img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+#kolme h1{
+    text-align: center;
+    color: rgb(12, 139, 189);
+}
+#kolme p{
+    text-align: center;
+    color: tomato;
+}
+#kolme img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    max-height: 20%;
+    
+}
